@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./assets/img/stock.png" alt="logo de stock center"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse show" id="navbarDark">
+                    <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./pages/accesorios.html">Accesorios</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./pages/indumentaria.html">Indumentaria</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+        </div>
+    </nav>
+</header>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./assets/img/portada1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/img/portada2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/img/portada3.jpg" class="d-block w-100" alt="...">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <p class="lmv">LO MAS VENDIDO<p>
+
+    <section class="content-area">
+            <div class="area">
+                <div class="producto">
+                    <img src="./assets/img/1.jpg" alt="Zapatillas Running" class="img-fluid">
+                    <h6>Zapatillas Running adidas Hombre</h6>
+                    <p class="precio">$45.999</p>
+                </div>
+                <div class="producto">
+                    <img src="./assets/img/5.jpg" alt="Paleta Head" class="img-fluid">
+                    <h6>Paleta Head Cyano Lime</h6>
+                    <p class="precio">$65.999</p>
+                </div>
+                <div class="producto">
+                    <img src="./assets/img/8.jpg" alt="Bicicleta Teknial" class="img-fluid">
+                    <h6>Bicicleta Teknial Tarpan 200Er</h6>
+                    <p class="precio">$118.999</p>
+                </div>
+                <div class="producto">
+                    <img src="./assets/img/12.jpg" alt="Remera Fútbol adidas" class="img-fluid">
+                    <h6>Remera Fútbol adidas Afa Tiro</h6>
+                    <p class="precio">$39.999</p>
+                </div>
+                <div class="producto">
+                    <img src="./assets/img/7.jpg" alt="Pack de Medias" class="img-fluid">
+                    <h6>Pack de Medias Nike X3 Everyday</h6>
+                    <p class="precio">$9.899</p>
+                </div>
+                <div class="producto">
+                    <img src="./assets/img/3.jpg" alt="Zapatillas adidas" class="img-fluid">
+                    <h6>Zapatillas adidas Ultimashow</h6>
+                    <p class="precio">$75.399</p>
+                </div>
+            </div>
+        </section>
+
+    <section class="newsletterSection">
+        <div class="newsletter">       
+            <h3>Enterate de las mejores ofertas, suscribite ahora</h3>
+            <div class="form">
+                <form action="">
+                    <label for="ingresa tu mail">
+                        <input type="ingresa tu mail" placeholder="Ingresa tu mail">
+                    </label>
+                </form>
+                <button class="button">
+                    <span class="text">Enviar</span>
+                    <svg class="arrow" viewBox="0 0 448 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foot">
+            <div class="footPage container-*">
+                <h3>Paginas</h3>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="./pages/accesorios.html">Accesorios</a></li>
+                    <li><a href="./pages/indumentaria.html">Indumentaria</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="logosDiv">
+                <a href="https://twitter.com/?lang=es"><img src="./assets/img/twitter.png" alt="twitter" class="logoImg img-fluid"></a>
+                <a href="https://www.instagram.com/"><img src="./assets/img/instagram.png" alt="instagram" class="logoImg img-fluid"></a>
+                <a href="https://web.whatsapp.com/"><img src="./assets/img/whatsapp.png" alt="whatsapp" class="logoImg img-fluid"></a>
+                <a href="https://www.facebook.com/?locale=es_"><img src="./assets/img/facebook.png" alt="facebook" class="logoImg img-fluid"></a>
+            </div>
+        </div>
+
+<div class="d-flex justify-content-center bd-highlight mb-2 ">
+    <div class="row container align-items-center m-3">
+        <div class="col-1 p-0"><img src="./assets/img/StockCenter_Logo.png" alt="logo de stock center" class="img-fluid"></div>
+        <div class="mb col-11">© Copyright - 2017 - 2023 www.stockcenter.com.ar, TODOS LOS DERECHOS RESERVADOS. Las fotos contenidas en este site, el logotipo y las marcas son propiedad de www.stockcenter.com.ar y/o de sus respectivos titulares. Está prohibida la reproducción total o parcial, sin la expresa autorización de la administradora de la tienda virtual. Stock Center, empresa perteneciente al grupo DABRA S.A. con domicilio en Autopista Panamericana KM 25,6 - Don Torcuato de la Provincia de Buenos Aires – Argentina.</div>
+    </div>
+</div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
